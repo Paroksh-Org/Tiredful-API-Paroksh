@@ -1,0 +1,9 @@
+name: SAST Scan
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch
+  
+  - name: AppInspector
+    uses: microsoft/ApplicationInspector-Action@v1
+  
