@@ -36,7 +36,6 @@ def index(request):
 
 # Score detail of exam
 @api_view(['GET'])
-@permission_classes((IsAuthenticated,))
 def get_score(request, score_card):
     """
     Details of exam score card.
